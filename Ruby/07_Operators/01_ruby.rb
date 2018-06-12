@@ -2,12 +2,20 @@
 
 
 
+<<<<<<< HEAD
 
 =begin
 
 Ruby - Operators
 Advertisements
  Previous Page Next Page  
+=======
+=begin
+    
+
+Ruby - Operators
+
+>>>>>>> 5199e6dedcef6124ea3dce34ca0399260b8eac35
 Ruby supports a rich set of operators, as you'd expect from a modern language. Most operators are actually method calls. For example, a + b is interpreted as a.+(b), where the + method in the object referred to by variable a is called with b as its argument.
 
 For each operator (+ - * / % ** & | ^ << >> && ||), there is a corresponding form of abbreviated assignment operator (+= -= etc.).
@@ -138,6 +146,7 @@ For Example
 
 defined? yield    # => "yield" (if there is a block passed)
 defined? yield    # => nil (if there is no block)
+<<<<<<< HEAD
 Ruby Dot "." and Double Colon "::" Operators
 You call a module method by preceding its name with the module's name and a period, and you reference a constant using the module name and two colons.
 
@@ -215,3 +224,8 @@ NOTE − Operators with a Yes in the method column are actually methods, and as 
 
 
 =end
+
+
+
+    
+
