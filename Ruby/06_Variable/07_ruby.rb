@@ -38,3 +38,17 @@ ary.each do |i|
    puts i
 end
 
+
+=begin
+
+This will produce the following result −
+
+fred
+10
+3.14
+This is a string
+last element
+For more detail on Ruby Arrays, go through Ruby Arrays.
+
+=end
+
