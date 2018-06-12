@@ -19,3 +19,30 @@ Constants may not be defined within methods. Referencing an uninitialized consta
 
     
 =end
+
+
+#!/usr/bin/ruby
+
+class Example
+    VAR1 = 100
+    VAR2 = 200
+    def show
+       puts "Value of first Constant is #{VAR1}"
+       puts "Value of second Constant is #{VAR2}"
+    end
+ end
+ 
+ # Create Objects
+ object = Example.new()
+ object.show
+
+
+=begin
+
+Here VAR1 and VAR2 are constants. This will produce the following result −
+
+Value of first Constant is 100
+Value of second Constant is 200
+
+
+=end
