@@ -52,3 +52,16 @@ def test(a1 = "Ruby", a2 = "Perl")
  test
 
 
+=begin
+
+
+This will produce the following result −
+
+The programming language is C
+The programming language is C++
+The programming language is Ruby
+The programming language is Perl
+
+
+=end
+
